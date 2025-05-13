@@ -1,1 +1,7 @@
 # ativsalasem4-comp2-readme
+
+O que entendi da aula de hoje:
+
+MVC: O componente model é responsável pela estruturação de todos os dados a serem gerados, além de estabelecer as relações entre as tabelas, incluindo joins de forma que unam informações de atributos em função de tornarem-se mais apresentáveis. O controller será a ponte entre o model e os bancos de dados, de maneira à possibilitar que as informações fluam de acordo com consultas, além de conectá-lo ao view, que tem como função exibir todo este mecanismo ao usuário. Estes dados serão visíveis graças às conexões fornecidas pelas routes, que vão transportar o código para a interface, tornando-a funcional.
+
+Joins: São comandos que possibilitam a união de dados entre tabelas, simplificando-as na interface do usuário. Inner Joins, portanto, atuam neste contexto como uma ligação direta entre duas tabelas, sendo capaz de unir informações selecionadas em uma consulta através da utilização de chaves primárias (identificadores das tabelas) e estrangeiras (atributos que interligam uma tabela com a chave primária de outra). Left e Right Join tem um funcionamento semelhante, possuindo foco no direcionamento da extração de dados, de forma que a intersecção entre estes seja mais específica (posso pedir, por exemplo, para que as informações contidas em uma chave estrangeira de uma tabela à esquerda na modelagem sejam conectadas/exibidas na tabela que selecionarei).
